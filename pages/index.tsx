@@ -11,7 +11,7 @@ export default function IndexPage() {
       </Head>
       <header>
         <h1>Carlos RPJ</h1>
-        <TextAutoType tag='h2'>{'<dev fullstack and mobile />'}</TextAutoType>
+        <TextAutoType tag='h2'>{'<dev fullstack & mobile />'}</TextAutoType>
       </header>
       <nav>
         <a href='https://github.com/carlosroberto555' target='_blank'>GitHub</a>

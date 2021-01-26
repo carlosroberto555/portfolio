@@ -3,6 +3,16 @@ export default function Layout({ children }) {
     <>
       {children}
       <style jsx global>{`
+        * {
+          margin: 0;
+          padding: 0;
+        }
+
+        html, body {
+          height: 100%;
+          width: 100%;
+        }
+
         body {
           font-family: "Jetbrains Mono", Roboto, sans-serif;
           color: #f1f1f1;
@@ -10,27 +20,21 @@ export default function Layout({ children }) {
           
           box-sizing: border-box;
           padding: 12px;
-          margin: 0;
-
-          height: 100vh;
-          width: 100vw;
 
           display: flex;
           align-items: center;
           justify-content: center;
         }
 
-        header {
-          width: 100%;
-        }
-
         h1 {
           text-align: center;
+          margin-bottom: 24px;
         }
 
         h2 {
           text-align: center;
           color: green;
+          margin: 12px 0;
         }
 
         nav {
