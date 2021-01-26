@@ -12,15 +12,13 @@ const TextAutoType: React.FC<Props> = ({ children, tag }) => {
   const Tag = tag || 'p'
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      if (text.length < children.length) {
+    if (text.length < children.length) {
+      const timeout = setTimeout(() => {
         setText(prev => prev + children.charAt(prev.length))
-      } else {
-        clearTimeout(timeout)
-      }
-    }, 100)
-
-    return () => clearTimeout(timeout)
+      }, 100)
+      
+      return () => clearTimeout(timeout)
+    } 
   }, [text])
   
   return (
