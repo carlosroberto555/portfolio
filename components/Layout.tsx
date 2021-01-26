@@ -53,6 +53,12 @@ export default function Layout({ children }) {
           color: green;
           text-decoration: underline;
         }
+
+        @media only screen and (max-width: 600px) {
+          h1 { font-size: 20pt; }
+          h2 { font-size: 14pt; }
+          nav a { font-size: 9pt }
+        }
       `}</style>
     </>
   )
