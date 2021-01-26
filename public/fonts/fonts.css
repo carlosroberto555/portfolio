@@ -1,9 +1,5 @@
 @font-face {
   font-family: 'Jetbrains Mono';
   src: url('JetBrainsMono-Regular.woff2') format('woff2'),
-  url('JetBrainsMono-Regular.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Jetbrains Mono', Roboto, sans-serif;
+    url('JetBrainsMono-Regular.ttf') format('truetype');
 }

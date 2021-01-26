@@ -1,11 +1,9 @@
 import Head from 'next/head'
-
-import Layout from '../components/Layout'
 import TextAutoType from '../components/TextAutoType'
 
 export default function IndexPage() {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Carlos RPJ | Dev FullStack and Mobile</title>
       </Head>
@@ -22,6 +20,6 @@ export default function IndexPage() {
       <footer>
         <small>Copyright © 2021 Carlos RPJ</small>
       </footer>
-    </Layout>
+    </>
   )
 }
