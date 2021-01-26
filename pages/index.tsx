@@ -7,7 +7,6 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <link rel="stylesheet" href="/fonts/fonts.css"/>
         <title>Carlos RPJ | Dev FullStack and Mobile</title>
       </Head>
       <header>
