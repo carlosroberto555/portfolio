@@ -6,6 +6,7 @@ export default function Layout({ children }) {
         * {
           margin: 0;
           padding: 0;
+          box-sizing: border-box;
         }
 
         html, body {
@@ -17,7 +18,6 @@ export default function Layout({ children }) {
           color: #f1f1f1;
           background-color: #212121;
           
-          box-sizing: border-box;
           padding: 12px;
 
           display: flex;
