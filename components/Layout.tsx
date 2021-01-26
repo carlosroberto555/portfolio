@@ -9,7 +9,7 @@ export default function Layout({ children }) {
           background-color: #212121;
           
           box-sizing: border-box;
-          padding: 30px;
+          padding: 12px;
           margin: 0;
 
           height: 100vh;
