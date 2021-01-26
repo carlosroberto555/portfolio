@@ -14,7 +14,6 @@ export default function Layout({ children }) {
         }
 
         body {
-          font-family: "Jetbrains Mono", Roboto, sans-serif;
           color: #f1f1f1;
           background-color: #212121;
           
