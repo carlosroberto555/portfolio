@@ -59,6 +59,16 @@ export default function Layout({ children }) {
           h2 { font-size: 14pt; }
           nav a { font-size: 9pt }
         }
+
+        footer {
+          position: absolute;
+          bottom: 12px;
+          left: 0;
+          right: 0;
+          text-align: center;
+          font-size: 10pt;
+          color: #f1f1f188
+        }
       `}</style>
     </>
   )

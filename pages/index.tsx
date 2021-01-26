@@ -19,6 +19,9 @@ export default function IndexPage() {
         <a href='https://twitter.com/carlosrpj555' target='_blank'>Twitter</a>
         <a href='https://www.instagram.com/carlos.tsx' target='_blank'>Instagram</a>
       </nav>
+      <footer>
+        <small>Copyright © 2021 Carlos RPJ</small>
+      </footer>
     </Layout>
   )
 }
