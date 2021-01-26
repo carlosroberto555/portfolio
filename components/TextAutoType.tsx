@@ -1,5 +1,5 @@
-import { ReactElement, ReactNode, useEffect, useState } from "react"
-import BlinkingPipe from "./BlinkinPipe"
+import { useEffect, useState } from "react"
+import BlinkingPipe from "./BlinkingPipe"
 
 interface Props {
   children: string

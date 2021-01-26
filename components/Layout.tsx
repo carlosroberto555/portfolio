@@ -53,23 +53,6 @@ export default function Layout({ children }) {
           color: green;
           text-decoration: underline;
         }
-
-        @keyframes blinking {
-          0% { opacity: 0 }
-          50% { opacity: 0 }
-          60% { opacity: 1 }
-          100% { opacity: 1 }
-        }
-
-        .blink {
-          color: green;
-          text-decoration: none;
-        }
-
-        .blinking {
-          animation: blinking 1.5s infinite;
-          animation-delay: .5s;
-        }
       `}</style>
     </>
   )
